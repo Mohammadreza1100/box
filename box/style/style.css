@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.nav{
+display: flex;   
+background-color: lightslategray; 
+color: bisque;
+justify-content: center;
+gap: 200px;
+height: 40px;
+font-size: 20px;
+}
+.h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.box{
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+.div1{
+    background-color: aqua;
+    width: 25%;
+    height: 250px;
+    margin-top: 30px;
+}
+.div2{
+    background-color: blue;
+    width: 25%;
+    height: 250px;
+    margin-top: 30px;
+}
+.div3{
+    background-color: blueviolet;
+    width: 25%;
+    height: 250px;
+    margin-top: 30px;
+}
+.div4{
+    background-color: brown;
+    width: 25%;
+    height: 250px;
+    margin-top: 30px;
+}
+.navbar{
+    text-align: center;
+    font-size: 30px;
+}
+@media screen and (max-width:760px){
+    .nav{
+        display: none;
+    }
+.box{
+
+}
+.div1{
+width: 50%;
+}
+.div2{
+width: 50%;
+}
+.div3{
+    width: 50%; 
+}
+.div4{
+    width: 50%;
+}
+}
